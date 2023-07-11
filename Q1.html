@@ -1,0 +1,59 @@
+<html>
+<head>
+<title> FORM</title>
+<style>
+.error
+ {
+ color: #FF0000;
+ }
+
+div {
+  border-radius: 80px;
+  background-color: #ff9966;
+  padding: 20px;
+  font-family: Lucida Handwriting;
+  font-weight: bold;
+}
+
+input[type=text],input[type=email],input[type=number],input[type=date]  {
+  width: 20%;
+  padding: 12px 20px;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+input[type=submit],[type=reset] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  
+}
+</style>
+</head>
+<body>
+
+<div><form style ="background-color:#3399ff" action="Q1.jsp" method="POST">
+<center>
+<fieldset>
+<legend><h1>STUDENT MANAGEMENT SYSTEM</h1></legend>
+REG NO :<input type ="text" name ="Register No" placeholder="Register No" style="margin-left:1.5%" required><br><br>
+NAME  :  <input type ="text" name ="name" placeholder="Student Name" style="margin-left:1.5%" required><br><br>
+DATE OF BIRTH:<input type="date" name="b day!" style="margin-left:1.5%" required><br><br>
+ADDRESS  :  <input type ="email" name ="address" placeholder="Address" style="margin-left:1.5%" required><br><br>
+EMAIL ID : <input type ="text"  name ="mail" placeholder="Student Email" style="margin-left:2%" required><br><br>
+AGE  : <input type ="number"  name ="age" placeholder="Age" style="margin-left:5%" required>
+  <br><br>
+  
+<input type="submit"  value="SIGN UP" name="submit">
+<input type="reset"  value="RESET" name=" reset">
+
+</fieldset>
+</center>
+</form>
+</div>
+
+</body>
+</html>
